@@ -1,0 +1,39 @@
+/* SocialAccounts.css */
+
+.social-accounts {
+    position: center;
+    bottom: 20px; /* Adjust this value to change the vertical position */
+    right: 20px; /* Adjust this value to change the horizontal position */
+    background-color: rgb(23, 126, 126);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+  }
+  
+  .social-accounts h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .social-accounts ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .social-accounts ul li {
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  
+  .social-accounts ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .social-accounts ul li a:hover {
+    text-decoration: blink;
+    text-align: right;
+  }
+  
