@@ -6,7 +6,6 @@ import './SocialAccounts.css'; // Import the CSS file for styling
 export default function SocialAccounts() {
   return (
     <div className="social-accounts">
-      <h3></h3>
       <ul>
         <li>
           <a href="https://www.linkedin.com/in/mubashirali8/" target="_blank" rel="noopener noreferrer">

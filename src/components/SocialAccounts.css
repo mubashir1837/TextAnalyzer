@@ -2,8 +2,8 @@
 
 .social-accounts {
     position: center;
-    bottom: 20px; /* Adjust this value to change the vertical position */
-    right: 20px; /* Adjust this value to change the horizontal position */
+    bottom: 20px;
+    right: 20px; 
     background-color: rgb(23, 126, 126);
     padding: 20px;
     border-radius: 5px;

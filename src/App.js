@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import About from './components/About';
 import Alert from './components/Alert';
-import SocialAccounts from './components/SocialAccounts'; // Import the SocialAccounts component
+import SocialAccounts from './components/SocialAccounts'; 
 import '@fortawesome/fontawesome-free/css/all.css';
 
 import {
@@ -36,7 +36,7 @@ function App() {
       showAlert("Dark mode has been enabled", "success");
     } else {
       setMode('light');
-      document.body.style.backgroundColor = '#19bdaf';
+      document.body.style.backgroundColor = '#1ff';
       showAlert("Light mode has been enabled", "success");
     }
   }
@@ -55,7 +55,6 @@ function App() {
           </Route>
         </Switch>
       </div>
-      {/* Render the SocialAccounts component */}
       <SocialAccounts />
     </Router>
   );
