@@ -1,7 +1,7 @@
 // SocialAccounts.js
 
 import React from 'react';
-import './SocialAccounts.css'; // Import the CSS file for styling
+import './SocialAccounts.css';
 
 export default function SocialAccounts() {
   return (
@@ -28,7 +28,6 @@ export default function SocialAccounts() {
             <i className="fab fa-facebook"></i> Facebook
           </a>
         </li>
-        {/* Add more social media accounts as needed */}
       </ul>
     </div>
   );
