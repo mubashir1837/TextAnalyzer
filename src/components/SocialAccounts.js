@@ -4,7 +4,7 @@ import './SocialAccounts.css';
 export default function SocialAccounts() {
   return (
     <div className="social-accounts">
-      <h3>Connect with us</h3>
+      <h3>Follow me on</h3>
       <ul>
         <li>
           <a href="https://www.facebook.com/profile.php?id=100089259276299" target="_blank" rel="noopener noreferrer">
