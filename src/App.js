@@ -32,12 +32,12 @@ function App() {
   const toggleMode = () => {
     if (mode === 'light') {
       setMode('dark');
-      document.body.style.backgroundColor = '#0d2f57';
-      showAlert("Dark mode has been enabled", "success");
+      document.body.style.backgroundColor = '#0d1117';
+      showAlert("Dark mode is now activated", "success");
     } else {
       setMode('light');
-      document.body.style.backgroundColor = '#1ff';
-      showAlert("Light mode has been enabled", "success");
+      document.body.style.backgroundColor = 'white';
+      showAlert("Light mode is now activated.", "success");
     }
   }
 

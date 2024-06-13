@@ -1,39 +1,43 @@
-/* SocialAccounts.css */
-
 .social-accounts {
-    position: center;
-    bottom: 20px;
-    right: 20px; 
-    background-color: rgb(23, 126, 126);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
-  }
-  
-  .social-accounts h3 {
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .social-accounts ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .social-accounts ul li {
-    margin-bottom: 10px;
-    flex-direction: column;
-  }
-  
-  .social-accounts ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .social-accounts ul li a:hover {
-    text-decoration: blink;
-    text-align: right;
-  }
-  
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-accounts h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.social-accounts ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-accounts ul li {
+  display: inline-block;
+}
+
+.social-accounts ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.social-accounts ul li a:hover {
+  background-color: #555;
+}
+
+.social-accounts ul li a .fab {
+  display: block;
+}
